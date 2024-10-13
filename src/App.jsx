@@ -1,12 +1,15 @@
 // import StateHook from "./components/StateHook"
 
-import EffectHook from "./components/EffectHook"
+import MemoHook from "./components/MemoHook"
+
+// import EffectHook from "./components/EffectHook"
 
 function App() {
   return (
     <>
       {/* <StateHook /> */}
-      <EffectHook />
+      {/* <EffectHook /> */}
+      <MemoHook />
     </>
   )
 }
