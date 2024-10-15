@@ -1,9 +1,8 @@
 // import StateHook from "./components/StateHook"
-
-// import MemoHook from "./components/MemoHook"
-import RefHook from "./components/RefHook"
-
 // import EffectHook from "./components/EffectHook"
+// import MemoHook from "./components/MemoHook"
+// import RefHook from "./components/RefHook"
+import ContextHook from "./components/ContextHook"
 
 function App() {
   return (
@@ -11,7 +10,8 @@ function App() {
       {/* <StateHook /> */}
       {/* <EffectHook /> */}
       {/* <MemoHook /> */}
-      <RefHook />
+      {/* <RefHook /> */}
+      <ContextHook />
     </>
   )
 }
