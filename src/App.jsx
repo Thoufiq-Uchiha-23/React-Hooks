@@ -2,7 +2,8 @@
 // import EffectHook from "./components/EffectHook"
 // import MemoHook from "./components/MemoHook"
 // import RefHook from "./components/RefHook"
-import ContextHook from "./components/ContextHook"
+// import ContextHook from "./components/ContextHook"
+import ReducerHook from "./components/ReducerHook"
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <EffectHook /> */}
       {/* <MemoHook /> */}
       {/* <RefHook /> */}
-      <ContextHook />
+      {/* <ContextHook /> */}
+      <ReducerHook />
     </>
   )
 }
