@@ -3,7 +3,10 @@
 // import MemoHook from "./components/MemoHook"
 // import RefHook from "./components/RefHook"
 // import ContextHook from "./components/ContextHook"
-import ReducerHook from "./components/ReducerHook"
+// import ReducerHook from "./components/ReducerHook"
+// import CallbackHook from "./components/CallbackHook"
+
+import IdHook from "./components/IdHook"
 
 function App() {
   return (
@@ -13,7 +16,9 @@ function App() {
       {/* <MemoHook /> */}
       {/* <RefHook /> */}
       {/* <ContextHook /> */}
-      <ReducerHook />
+      {/* <ReducerHook /> */}
+      {/* <CallbackHook /> */}
+      <IdHook />
     </>
   )
 }
